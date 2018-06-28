@@ -12,6 +12,15 @@ Example API exposes a `POST /enrol-student-to-course` endpoint with 2 integer pa
 * `studentId`  
 * `courseId`
 
+## Table of content
+- [Dependencies](https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#dependencies)
+- [Start-up](https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#start-up)
+- [Output](https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#output)
+- [Tests](https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#tests)
+- [Directory Structure](https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#directory-structure)
+- [Design decisions](https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#design-decisions)
+- [Appendix : Import project into _IntelliJ IDEA Community_](https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#appendix--import-project-into-intellij-idea-community)
+
 ## Dependencies
 [See here](build.gradle)
 
@@ -135,11 +144,3 @@ _In the commands above, `gradle` might be replaced  by `./gradlew`_
 6. At this point you should be all set. To make sure of that, go to `./test/kotlin/api/domain/CourseTest.kt` test class and run it from within _IntelliJ_ using the green arrow in the left margin:
 ![](./docs/green_arrow.jpeg)
 ![](./docs/tests_pass.jpeg)
-
-https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#dependencies
-https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#start-up
-https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#output
-https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#tests
-https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#directory-structure
-https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#design-decisions
-https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#appendix--import-project-into-intellij-idea-community
