@@ -25,8 +25,7 @@ _In the command above, `gradle` might be replaced  by `./gradlew`_
 For the sake of the example, the ap`plication runs on a in-memory database which is populated on start-up with 6 ***Students*** (with IDs from 1 to 6) and 5 ***Courses*** (with IDs from 1 to 5).
 
 You may thus for instance try the API using [_Postman_](https://www.getpostman.com) as shown here below :
-
-![](./docs/postman.jpeg)<!-- .element height="50px" -->
+![](docs/postman.jpeg | width = 100px)
 
 ## Output
 
@@ -123,3 +122,18 @@ _In the commands above, `gradle` might be replaced  by `./gradlew`_
 
 # Once again, your feedback is welcome !
 ***And if you found this repository useful, please give it a star :)***
+
+# Appendix : Import project into _IntelliJ IDEA Community_
+
+1. Clone or download the sources into a directory
+2. Open _IntelliJ IDEA Community_
+3. In the wizard press "Open":
+![](./docs/click_open.jpeg)
+4. In the next dialog  window select the options as show here:
+![](./docs/project_import_wizard.jpeg)
+5. Let _IntelliJ_ some time to synch with _Gradle_
+6. At this point you should be all set. To make sure of that, go to `./test/kotlin/api/domain/CourseTest.kt` test class and run it from within _IntelliJ_ using the green arrow in the left margin:
+![](./docs/green_arrow.jpeg)
+![](./docs/tests_pass.jpeg)
+
+
