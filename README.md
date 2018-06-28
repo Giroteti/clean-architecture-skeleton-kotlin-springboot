@@ -86,7 +86,7 @@ You may thus for instance try the API using [_Postman_](https://www.getpostman.c
 }
 ```
 
-## Test
+## Tests
 Run the unit/integration tests using:
 ```
 gradle clean test
@@ -101,7 +101,7 @@ An HTML report will be issued under the `./build/reports/pitest` directory.
 
 _In the commands above, `gradle` might be replaced  by `./gradlew`_
 
-# Directory structure
+## Directory structure
 ```
 |-src
    |--main
@@ -115,7 +115,7 @@ _In the commands above, `gradle` might be replaced  by `./gradlew`_
    |--test # contains unit- and integration tests
 ```
 
-# Design decisions
+## Design decisions
 - Persistence mapping is done using [boilerplate entities](./src/main/kotlin/api/infrastructure/db/course/Course.kt) and [conversions](./src/main/kotlin/api/infrastructure/db/course/CourseH2Repository.kt) in order to keep [domain](./src/main/kotlin/api/domain/course/Course.kt) free of external libraries/framework dependencies 
 - Non-nominal execution flows are handled using `Exception` throwing and [`Exception handlers` from `ControllerAdvice`](./src/main/kotlin/api/infrastructure/http/routing/ControllerAdvice.kt)
 - Naming relative to the verb "to Enrol" are spelled UK-style :)  
@@ -123,7 +123,7 @@ _In the commands above, `gradle` might be replaced  by `./gradlew`_
 # Once again, your feedback is welcome !
 ***And if you found this repository useful, please give it a star :)***
 
-# Appendix : Import project into _IntelliJ IDEA Community_
+## Appendix : Import project into _IntelliJ IDEA Community_
 
 1. Clone or download the sources into a directory
 2. Open _IntelliJ IDEA Community_
@@ -136,4 +136,10 @@ _In the commands above, `gradle` might be replaced  by `./gradlew`_
 ![](./docs/green_arrow.jpeg)
 ![](./docs/tests_pass.jpeg)
 
-
+https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#dependencies
+https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#start-up
+https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#output
+https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#tests
+https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#directory-structure
+https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#design-decisions
+https://github.com/EGI-OCTO/clean-architecture-skeleton-kotlin-springboot/blob/master/README.md#appendix--import-project-into-intellij-idea-community
