@@ -31,10 +31,10 @@ gradle clean bootRun
 ```
 _In the command above, `gradle` might be replaced  by `./gradlew`_
 
-For the sake of the example, the application runs on a in-memory database which is populated on start-up with 6 ***Students*** (having IDs from 1 to 6) and 5 ***Courses*** (having IDs from 1 to 5).
+For the sake of the example, the application runs on a in-memory database which is populated on start-up with 6 ***Students*** (with IDs from 1 to 6) and 5 ***Courses*** (with IDs from 1 to 5).
 
 You may thus for instance try the API using [_Postman_](https://www.getpostman.com) as shown here below :
-![](docs/postman.jpeg)
+![](docs/postman.jpeg | width = 100px)
 
 ## Output
 
