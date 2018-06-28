@@ -137,6 +137,7 @@ _In the commands above, `gradle` might be replaced  by `./gradlew`_
 1. Clone or download the sources into a directory
 2. Open _IntelliJ IDEA Community_
 3. In the wizard press "Open":
+
 ![](./docs/click_open.jpeg)
 4. In the next dialog  window select the options as show here:
 ![](./docs/project_import_wizard.jpeg)
