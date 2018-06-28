@@ -141,8 +141,11 @@ _In the commands above, `gradle` might be replaced  by `./gradlew`_
 ![](./docs/click_open.jpeg)
 
 4. In the next dialog  window select the options as show here:
+
 ![](./docs/project_import_wizard.jpeg)
+
 5. Let _IntelliJ_ some time to synch with _Gradle_
 6. At this point you should be all set. To make sure of that, go to `./test/kotlin/api/domain/CourseTest.kt` test class and run it from within _IntelliJ_ using the green arrow in the left margin:
+
 ![](./docs/green_arrow.jpeg)
 ![](./docs/tests_pass.jpeg)
