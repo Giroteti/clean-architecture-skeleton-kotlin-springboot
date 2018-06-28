@@ -139,6 +139,7 @@ _In the commands above, `gradle` might be replaced  by `./gradlew`_
 3. In the wizard press "Open":
 
 ![](./docs/click_open.jpeg)
+
 4. In the next dialog  window select the options as show here:
 ![](./docs/project_import_wizard.jpeg)
 5. Let _IntelliJ_ some time to synch with _Gradle_
