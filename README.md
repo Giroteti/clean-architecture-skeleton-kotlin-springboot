@@ -1,4 +1,4 @@
-# Clean Architecture skeleton project for APIs using Spring Boot 2/Kotlin and Gradle
+# KleanBoot : a Clean Architecture skeleton project for APIs using Spring Boot 2/Kotlin and Gradle
 
 This repository is intended to be used as a bootstrap for implementing Clean Architecture compliant APIs with state-of-the-art Spring Boot and Kotlin.
 In order to achieve such an ambition, your feedback (insight, criticism and suggestions) is highly welcome!
